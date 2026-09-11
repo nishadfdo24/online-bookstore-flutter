@@ -1,17 +1,76 @@
-# online_bookstore
+# Online Bookstore Flutter Mobile Application
 
-A new Flutter project.
+## Project Overview
 
-## Getting Started
+The Online Bookstore is a mobile application developed using Flutter. It provides a user-friendly platform for online bookstore activities with role-based access for Customers, Store Staff and Administrators.
 
-This project is a starting point for a Flutter application.
+## Main Features
 
-A few resources to get you started if this is your first Flutter project:
+- User login and authentication
+- Role-based access
+- Browse books
+- Search books
+- View book details
+- Shopping cart
+- Order management
+- Input validation
+- Error handling
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+## User Roles
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### Customer
+Customers can browse books, search for books, view book details, manage the shopping cart and place orders.
+
+### Store Staff
+Store Staff can perform bookstore management and operational activities.
+
+### Administrator
+Administrators have higher-level access to manage users, books and system information.
+
+## Technologies Used
+
+- Flutter
+- Dart
+- Android Studio
+- REST API / Backend
+- Database
+- Git & GitHub
+
+## Project Structure
+
+- `lib/` - Flutter application source code
+- `android/` - Android project files
+- `ios/` - iOS project files
+- `web/` - Web project files
+- `windows/` - Windows project files
+- `test/` - Testing files
+- `pubspec.yaml` - Project dependencies and configuration
+
+## Demo Login Accounts
+
+| Role | Username | Password |
+|---|---|---|
+| Customer | customer | 1234 |
+| Store Staff | staff | 1234 |
+| Administrator | admin | 1234 |
+
+## How to Run
+
+1. Clone the repository.
+2. Open the project in Android Studio.
+3. Run:
+
+`flutter pub get`
+
+4. Start an Android emulator or connect an Android device.
+5. Run:
+
+`flutter run`
+
+## GitHub Repository
+
+https://github.com/nishadfdo24/online-bookstore-flutter
+
+## Purpose
+
+This project was developed as part of the Mobile and Web Technologies assessment using Flutter and related web technologies.
