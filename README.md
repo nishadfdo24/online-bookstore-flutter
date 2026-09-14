@@ -51,8 +51,8 @@ Administrators have higher-level access to manage users, books and system inform
 | Role | Username | Password |
 |---|---|---|
 | Customer | customer | 1234 |
-| Store Staff | staff | 1234 |
-| Administrator | admin | 1234 |
+| Store Staff | staff | 5678 |
+| Administrator | admin | 2468 |
 
 ## How to Run
 
